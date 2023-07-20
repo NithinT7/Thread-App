@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.App{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width: 100%;
+  overflow-y: auto;
+  text-align: center;
+  height: auto;
+  background: #F5F5F5;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

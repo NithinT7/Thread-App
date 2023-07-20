@@ -1,0 +1,75 @@
+.Feed{
+    color: #f5f5f5;
+    font-weight: 500;
+    background-image: linear-gradient(0.25turn,#a24949, #986565);
+}
+
+.Feed h1{
+    font-weight: 600;
+    padding: 2%;
+    border-bottom:1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+}
+
+.Post{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border: 0 !important;
+    width: 50% !important;
+    height: 30% !important;
+    margin: 2%;
+    background-color: #f5f5f5 !important;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-thread{
+    border-top: 1px solid #a24949;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 250px;
+    padding: 0;
+}
+
+.comment-thread .card{
+    border-bottom: 1px solid #a24949 !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 !important;
+}
+
+.comment-thread .card-text{
+    font-size: 10px !important;
+}
+
+.comment-thread .card-subtitle{
+    font-size: 12px !important;
+}
+
+@media only screen and (max-width: 680px){
+    .card{
+        width: 80% !important;
+        height: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .card{
+        width: 100% !important;
+        height: 30% !important;
+    }
+}
+

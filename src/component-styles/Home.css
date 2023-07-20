@@ -1,0 +1,49 @@
+.Home{
+    color: #f5f5f5;
+    font-weight: 500;
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom, #986565, #a24949);
+}
+.text{
+    color: #f5f5f5; 
+}
+.Review{
+    background-color: #f5f5f5;
+    width: 50%;
+    border: 2px solid #a24949;
+    border-radius: 10px;
+    margin: 2%;
+    font-size: small;
+}
+
+.Bio .row{
+    margin-top: 5%;
+}
+
+.CustomerReviews{
+    background-color: white;
+    color : #a24949;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .Review{
+        width: 50%;
+    }
+    .contents{
+        flex-direction: row;
+    }
+    .text{
+        font-size: 12px;
+    }
+}
+
+.image{
+    border-radius: 10px;
+}
